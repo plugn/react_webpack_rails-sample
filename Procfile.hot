@@ -1,0 +1,2 @@
+dev: npm run start-hot-dev
+web: bundle exec rails server --port=5000
