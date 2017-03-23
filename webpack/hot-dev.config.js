@@ -8,9 +8,10 @@ scssLoader.loader = 'style!css!sass!';
 
 config.output.publicPath = 'http://localhost:8080/assets/'
 
-config.entry.main.push(
-  'webpack/hot/only-dev-server',
-  'webpack-dev-server/client?http://localhost:8080'
-)
+// not needed since --inline --hot used
+// config.entry.main.push(
+//   'webpack/hot/only-dev-server',
+//   'webpack-dev-server/client?http://localhost:8080'
+// )
 
 module.exports = config;
